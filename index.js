@@ -50,7 +50,7 @@ app.get("/", (req, res) => {
 
 mongoose.connect(config.mongoPath, err => {
   if (err) console.error(err);
-  else console.log("Database connect successful");
+  else console.log("Database connect successful!!!!");
 });
 
 const port = process.env.port || 6969;
