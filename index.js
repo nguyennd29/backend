@@ -12,7 +12,7 @@ const authRouter = require("./modules/api/auth/router");
 
 app.use((req, res, next) => {
   res.setHeader("X-Frame-Options", "ALLOWALL");
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000","https://techkid-hotgirl.herokuapp.com");
+  res.setHeader("Access-Control-Allow-Origin","https://techkid-hotgirl.herokuapp.com");
   res.setHeader(
     "Access-Control-Allow-Methods",
     "POST, GET, PUT, DELETE, OPTIONS"
