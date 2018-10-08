@@ -1,5 +1,5 @@
 {
-  "mongoPath": "mongodb://localhost:27017/tk-hotgirls",
+  "mongoPath": "mongodb://admin:katyva123@ds239648.mlab.com:39648/mydb",
   "sessionSecret": "himitsu",
   "secureCookie": false
 }
